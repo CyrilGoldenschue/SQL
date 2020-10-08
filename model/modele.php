@@ -13,4 +13,11 @@ function getBD()
     return $connection;
 }
 
+function getCustomer()
+{
+    $connection = getBD();
+
+    $request = "select 'name', 'firstname' from Customers where avs =";
+}
+
 
