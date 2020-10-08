@@ -1,9 +1,9 @@
 <?php
 
-require_once "model/modele.php";
+require_once "model/model.php";
 
 function index()
 {
     $data = getCustomer();
-    require_once "view/home.php";
+    require "view/home.php";
 }
